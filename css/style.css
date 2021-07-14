@@ -574,7 +574,7 @@ button{
 	padding: 5px;
 }
 .newedge-date{
-	color : #b9b9b9;
+	color : #848383;
 	padding-right: 20px;
 }
 .top-right{
@@ -1704,17 +1704,17 @@ article.leading-item .article-inner.default:hover .article-info {
   background: #325c94;
 }
 
-.social-common-bar .social-icon .dribbble-icon {
+.social-common-bar .social-icon .pinterest-icon {
   background: #fa4086;
 }
-.social-common-bar .social-icon .dribbble-icon:after{
+.social-common-bar .social-icon .pinterest-icon:after{
   background: #fa4086;
 }
 
-.social-common-bar .social-icon .rss-icon {
+.social-common-bar .social-icon .instagram-icon {
   background: #fd9f13;
 }
-.social-common-bar .social-icon .rss-icon:after{
+.social-common-bar .social-icon .instagram-icon:after{
   background: #fd9f13;
 }
 .social-common-bar .social-total-count {
@@ -1733,7 +1733,6 @@ article.leading-item .article-inner.default:hover .article-info {
 .social-counter .social-common-bar:nth-child(even) {
   text-align: right;
 }
-
 /* ************** 	END:: SOCIAL COUNTER 	*************** */
 /* ******************************************************** */
 
