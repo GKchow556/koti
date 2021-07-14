@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>	
-	<title>Gknewz</title>
+<head>
 	<meta charset="utf-8">
+	<title>Telugumovieshine</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<!-- FAVICON -->
-	<link rel="shortcut icon" href="img/favicon.png">
+	<link rel="shortcut icon" href="img/fevicon.png">
 
-	<!-- CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/cs-select.css">  
@@ -22,127 +20,28 @@
 	<link rel="stylesheet" href="css/presets/preset1.css">  
 	<link rel="stylesheet" href="css/responsive.css">  
 	<link id="preset" rel="stylesheet" type="text/css" href="css/presets/preset1.css">  
-   
-	<script data-ad-client="ca-pub-7232243922734312" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	
+	  <script data-ad-client="ca-pub-7232243922734312" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-</head> <!-- head -->
-<body class="sticky-header">
+</head> 
+<body class="sticky-header" onload="display_c();">
 	<div class="body-innerwrapper">
 		
-		<!--==================================
-		=            START Header            =
-		===================================-->
 		<header>
-			<!-- top-bar -->
+			
 			<div id="newedge-top-bar">
 				<div class="container">
 					<div class="row">
 						<div id="logo" class="col-xs-4 col-sm-3 col-md-3 hidden-sm hidden-xs">
-							<a href="index.html"><img src="img/presets/preset1/logo.png" alt="logo"></a>
-						</div> <!-- //logo -->
+							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+						</div> 
 						<div class="col-sm-12 col-md-9">
 							<div class="top-right">
 								<div class="newedge-date">
-									<span>	Monday, 11 December 2016 </span>
-								</div> <!-- //date -->
-								
+									<span id="ct">	 </span>
+								</div> 
 	
-								<div class="newedge-login">
-									<a href="#" role="button" data-toggle="modal" data-target="#login">
-										<i class="fa fa-user"></i>
-									</a>
-									<!-- Login modal -->
-									<div id="login" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-													<h1 class="text-left">Log in</h1>
-												</div>
-												<div class="modal-body">
-													<form action="#" method="post" id="login-form">
-														<fieldset class="userdata">
-															<input id="username" placeholder="Username" type="text" name="username" class="form-control">
-															<input id="password" type="password" placeholder="Password" name="password" class="form-control">
-															<div class="remember-wrap">
-																<input id="remember" type="checkbox" name="remember" class="inputbox" value="yes">
-																<label for="remember">Remember Me</label>
-															</div>
-															<div class="button-wrap pull-left">
-																<input type="submit" name="Submit" class="btn btn-block btn-success" value="Log in">
-															</div>
-															<p class="forget-name-link pull-left">
-																 <a href="#" data-toggle="modal" data-target="#forgot" class="close" data-dismiss="modal" aria-hidden="true">Forgot Password ?</a>
-															</p>
-														</fieldset>
-													</form>
-												</div> 
-												<!--/Modal body-->
-												<div class="modal-footer">
-													New Here? <a href="#register" data-toggle="modal" data-target="#register" class="close" data-dismiss="modal" aria-hidden="true">
-													Create an account</a>
-												</div> <!--/Modal footer-->
-											</div> <!-- Modal content-->
-										</div> <!-- /.modal-dialog -->
-									</div> <!-- //Login modal -->
-									
-									<!-- register modal -->
-									<div id="register" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-													<h1 class="text-left">Registration</h1>
-												</div>
-												<div class="modal-body">
-													<form action="#" method="post" id="login-form">
-														<fieldset class="userdata">
-															<input id="username" placeholder="Username" type="text" name="username" class="form-control">
-															<input id="password" type="text" placeholder="Password" name="password" class="form-control">
-                                                            <input id="password" type="text" placeholder="Confirm Password" name="password" class="form-control">
-                                                            <input id="mobile" placeholder="mobile" type="text" name="Mobile" class="form-control">
-															<input id="email" placeholder="email" type="text" name="Email" class="form-control">
-															<div class="button-wrap1 pull-left">
-																<input type="submit" name="Submit" class="btn btn-block btn-success" value="Register">
-															</div>															
-														</fieldset>
-													</form>
-												</div> <!--/Modal body-->
-												<div class="modal-footer">
-													Alredy member? <a href="#login" data-toggle="modal" data-target="#login" class="close" data-dismiss="modal" aria-hidden="true">
-													please login</a>
-												</div> <!--/Modal footer-->
-											</div> <!-- Modal content-->
-										</div> <!-- /.modal-dialog -->
-									</div> <!-- //register modal -->
-									
-									
-									<!-- forgot modal -->
-									<div id="forgot" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-										<div class="modal-dialog">
-											<!-- Modal content-->
-											<div class="modal-content">
-												<div class="modal-header">
-													<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fa fa-close"></i></button>
-													<h1 class="text-left">Forgot Password</h1>
-												</div>
-												<div class="modal-body">
-													<form action="#" method="post" id="login-form">
-														<fieldset class="userdata">
-															<input id="username" placeholder="Username" type="text" name="username" class="form-control">															
-															<div class="button-wrap1 pull-left">
-																<input type="submit" name="Submit" class="btn btn-block btn-success" value="Reset">
-															</div>															
-														</fieldset>
-													</form>
-												</div> <!--/Modal body-->												
-											</div> <!-- Modal content-->
-										</div> <!-- /.modal-dialog -->
-									</div> <!-- //forgot modal -->
-									
-								</div> <!-- //login -->
+								
 								<div class="newedge-search">
 									<div class="search-icon-wrapper">
 										<i class="fa fa-search"></i>
@@ -152,465 +51,35 @@
 											<input name="searchword" maxlength="200" class="inputboxnewedge-top-search" type="text" size="20" placeholder="Search ...">
 											<i id="search-close" class="fa fa-close"></i>
 										</form>
-									</div> <!-- //search-wrapper -->
-								</div> <!-- //search -->
-							</div> <!-- //top-right -->
+									</div> 
+								</div> 
+							</div> 
 						</div> 
-					</div> <!-- //row -->
-				</div> <!-- //container -->
-			</div> <!-- //top-bar -->
+					</div> 
+				</div> 
+			</div> 
 	
-			<!-- navigation mobile version -->
+			
 			<div id="mobile-nav-bar" class="mobile-nav-bar">
 				<div class="container">
 					<div class="row">
 						<div class="visible-sm visible-xs col-sm-12">
 							<div id="logo" class="mobile-logo pull-left">
-								<a href="index.html"><img src="img/presets/preset1/logo.png" alt="logo"></a>
+								<a href="index.html"><img src="img/logo.png" alt="logo"></a>
 							</div>
 							<a id="offcanvas-toggler" class="pull-right" href="#"><i class="fa fa-bars"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-	
-			<!-- navigation -->
+      
+     
 			<nav id="navigation-bar" class="navigation hidden-sm hidden-xs">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
 							<ul class="list-inline megamenu-parent">
-								<li><a href="index.html">Home</a></li>
-								<li class="has-child menu-justify">
-									<a href="article-categories.html">Social Media</a>
-									<div class="dropdown-inner container dropdown-menu-full-wrapper">
-										<div class="dropdown-menu-full vertical-tabs">
-											<div class="row">
-												<div class="col-sm-12">
-													<div class="row">
-														<div class="col-sm-3">
-															<ul class="tab-btns" role="tablist">
-																<li class="active"><a href="#facebook" data-toggle="tab">Facebook</a></li>
-																<li><a href="#twitter" data-toggle="tab">Twitter</a></li>
-																<li><a href="#youtube" data-toggle="tab">Youtube</a></li>
-																<li><a href="#pinterest" data-toggle="tab">Pinterest</a></li>
-																<li><a href="#dribble" data-toggle="tab">Dribble</a></li>
-																<li><a href="#g-plus" data-toggle="tab">Google Plus</a></li>
-															</ul>
-														</div> <!-- //col-sm-3 -->
-	
-														<div class="col-sm-9">
-															<div class="tab-content simple-article-overlay">
-																<div role="tabpanel" class="tab-pane active" id="facebook">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium01.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium02.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium03.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-																<div role="tabpanel" class="tab-pane" id="twitter">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium04.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium05.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium06.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-																<div role="tabpanel" class="tab-pane" id="youtube">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium07.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium08.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium09.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-																<div role="tabpanel" class="tab-pane" id="pinterest">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium10.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium11.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium12.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-																<div role="tabpanel" class="tab-pane" id="dribble">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium13.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium14.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium15.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-																<div role="tabpanel" class="tab-pane" id="g-plus">
-																	<div class="row">
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium16.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium01.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																		<div class="col-sm-4">
-																			<article class="item">
-																				<div class="article-inner">
-																					<div class="overlay"></div>
-																					<div class="img-wrapper"><img class="img-100p latest-post-image" src="img/article-img/medium02.jpg" alt="img"></div>
-																					<div class="post-share-social">
-																						<a href="#" class="fa fa-facebook"></a>
-																						<a href="#" class="fa fa-twitter"></a>
-																						<a href="#" class="fa fa-google-plus"></a>
-																						<a href="#" class="fa fa-pinterest"></a>
-																						<a href="#" class="fa fa-linkedin"></a>
-																						<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-																					</div> <!-- //post-share-social -->
-																					<div class="article-info">
-																						<h4 class="entry-title">
-																							<a href="single-article.html">Proin suscipit luctus orci placerat fringilla</a>
-																						</h4>
-																					</div>
-																				</div>
-																			</article>
-																		</div>
-																	</div> <!-- //row -->
-																</div> <!-- //tab-pane -->
-															</div> <!-- //tab-content -->
-														</div> <!-- //col-sm-9 -->
-													</div> <!-- //row -->								
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
+								<li><a href="index.html">Home</a></li>								
 								<li><a href="about.html">About Us</a></li>
 								<li><a href="tollywood.html">Tollywood</a></li>								
 								<li><a href="bollywood.html">Bollywood</a></li>
@@ -619,17 +88,12 @@
 								<li><a href="videos.html">Videos</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
 							</ul>
-						</div> <!-- col-sm-12 -->
-					</div> <!-- //row -->
-				</div> <!-- //container -->
-			</nav> <!-- //navigation -->
+						</div> 
+					</div> 
+				</div> 
+			</nav> 
 		</header>
-		<!--====  End of Header  ====-->
 		
-	
-		<!--==================================
-		=            START SLIDER            =
-		===================================-->
 		<section class="newedge-slider img-overlay">
 			<div class="newedge-slider-content">
 				<div id="main-slider" class="carousel slide" data-ride="carousel">
@@ -926,7 +390,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div> 
 	
 								<div class="col-sm-4">
 									<article class="gradient-color05">
@@ -940,7 +404,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<p class="slide-cat">
 													<a href="article-categories.html">
@@ -953,7 +417,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div>
 	
 								<div class="col-sm-4">
 									<article class="gradient-color06">
@@ -967,7 +431,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<p class="slide-cat">
 													<a href="article-categories.html">
@@ -980,16 +444,16 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
-							</div> <!-- //row -->
+								</div> 
+							</div> 
 						</div>
-						<!-- //Latest News -->
+						
 	                    
 						
-						<!-- Article By Category -->
+					
 						<div class="article-by-category">
 							<div class="row">
-								<!-- technology category -->
+								
 								<div class="col-sm-4">
 									<div class="gradient-color08">
 										<div class="section-title">
@@ -997,7 +461,7 @@
 											<div class="pull-right see-all">
 												<a href="#">See all</a>
 											</div>
-										</div> <!-- //section-title -->
+										</div> 
 	
 										<div class="row">
 											<div class="col-sm-12">
@@ -1012,7 +476,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Vestibulum eget felis nec purus commodo convallis</a>
@@ -1033,7 +497,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Praesent accumsan odio in ante ullamcorper</a>
@@ -1042,11 +506,10 @@
 													</div>
 												</article>
 											</div>
-										</div> <!-- //row -->
+										</div> 
 									</div>
-								</div> <!-- //Technology category -->
-	
-								<!-- Entertainment category -->
+								</div> 
+								
 								<div class="col-sm-4">
 									<div class="gradient-color09">
 										<div class="section-title">
@@ -1054,7 +517,7 @@
 											<div class="pull-right see-all">
 												<a href="#">See all</a>
 											</div>
-										</div> <!-- //section-title -->
+										</div> 
 	
 										<div class="row">
 											<div class="col-sm-12">
@@ -1069,7 +532,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Aliquam sed felis ligula. Duis non nulla magna</a>
@@ -1090,7 +553,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Praesent accumsan odio in ante ullamcorper</a>
@@ -1099,11 +562,10 @@
 													</div>
 												</article>
 											</div>
-										</div> <!-- //row -->
+										</div> 
 									</div>
-								</div> <!-- //Entertainment category -->
-	
-								<!-- Fashion category -->
+								</div> 
+								
 								<div class="col-sm-4">
 									<div class="gradient-color10">
 										<div class="section-title">
@@ -1111,7 +573,7 @@
 											<div class="pull-right see-all">
 												<a href="#">See all</a>
 											</div>
-										</div> <!-- //section-title -->
+										</div> 
 	
 										<div class="row">
 											<div class="col-sm-12">
@@ -1126,7 +588,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Aliquam sed felis ligula. Duis non nulla magna</a>
@@ -1147,7 +609,7 @@
 															<a href="#" class="fa fa-pinterest"></a>
 															<a href="#" class="fa fa-linkedin"></a>
 															<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-														</div> <!-- //post-share-social -->
+														</div> 
 														<div class="article-info">
 															<h4 class="entry-title">
 																<a href="single-article.html">Vestibulum eget felis nec purus commodo convallis</a>
@@ -1156,15 +618,13 @@
 													</div>
 												</article>
 											</div>
-										</div> <!-- //row -->
+										</div> 
 									</div>
-								</div> <!-- //Fashion category -->
+								</div> 
 							</div>
 						</div> 
-						<!-- //Article By Category -->
 						
 						
-						<!-- Latest Videos -->
 						<div class="newedge-latest-videos mtb10">
 							<div class="section-title">
 								<h3 class="pull-left"> 
@@ -1190,7 +650,7 @@
 											</div>
 										</div>
 									</div> 
-								</div> <!-- //leading-item -->
+								</div> 
 	
 								<div class="col-sm-5">
 									<div class="latest-video sub-leading-item media">
@@ -1205,7 +665,7 @@
 											</div>
 										</div>
 									</div>  
-								</div> <!-- //sub-leading-item -->
+								</div> 
 	
 								<div class="col-sm-5">
 									<div class="latest-video sub-leading-item media">
@@ -1220,7 +680,7 @@
 											</div>
 										</div>
 									</div>  
-								</div> <!-- //sub-leading-item -->
+								</div> 
 	
 								<div class="col-sm-5">
 									<div class="latest-video sub-leading-item media bdnone">
@@ -1235,18 +695,17 @@
 											</div>
 										</div>
 									</div>  
-								</div> <!-- //sub-leading-item -->
-							</div> <!-- //row -->
-						</div> <!-- //Latest Videos -->
-	
-						<!-- Social Media Category -->
+								</div> 
+							</div> 
+						</div> 
+						
 						<div class="single-article-category simple-article-overlay gradient-color10">
 							<div class="section-title">
 								<h3 class="pull-left"> <span class="cat-icon cat-icon-color07">S</span>Social Media</h3>
 								<div class="pull-right see-all">
 									<a href="article-categories.html">See all</a>
 								</div>
-							</div> <!-- //section-title -->
+							</div> 
 	
 							<div class="row">
 								<div class="col-sm-4">
@@ -1261,7 +720,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Aliquam sed felis ligula. Duis non nulla magna</a>
@@ -1269,7 +728,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div> 
 	
 								<div class="col-sm-4">
 									<article>
@@ -1283,7 +742,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div>
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Praesent accumsan odio in ante ullamcorper</a>
@@ -1291,7 +750,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div> 
 	
 								<div class="col-sm-4">
 									<article>
@@ -1305,7 +764,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Etiam feugiat dolor ac elit suscipit in elementum orci</a>
@@ -1313,8 +772,8 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
-							</div> <!-- //row -->
+								</div> 
+							</div> 
 	
 							<div class="row">
 								<div class="col-sm-4">
@@ -1329,7 +788,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Aliquam sed felis ligula. Duis non nulla magna</a>
@@ -1337,7 +796,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div> 
 	
 								<div class="col-sm-4">
 									<article>
@@ -1351,7 +810,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Praesent accumsan odio in ante ullamcorper</a>
@@ -1359,7 +818,7 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
+								</div> 
 	
 								<div class="col-sm-4">
 									<article>
@@ -1373,7 +832,7 @@
 												<a href="#" class="fa fa-pinterest"></a>
 												<a href="#" class="fa fa-linkedin"></a>
 												<div class="share-icon"><i class="fa fa-share-alt"></i></div>
-											</div> <!-- //post-share-social -->
+											</div> 
 											<div class="article-info">
 												<h4 class="entry-title">
 													<a href="single-article.html">Etiam feugiat dolor ac elit suscipit in elementum orci</a>
@@ -1381,23 +840,18 @@
 											</div>
 										</div>
 									</article>
-								</div> <!-- //col-sm-4 -->
-							</div> <!-- //row -->
+								</div> 
+							</div>
 						</div>
-						<!-- //Social Media Category -->
 						
-						<!-- Advertisement one -->
 						<div class="advertisement mtb30">
 							<div class="row">
 								<div class="col-sm-12">
 									<img src="img/large-ad1.jpg" alt="advertisement">
 								</div>
 							</div>
-						</div> <!-- //Advertisement one -->
-	
+						</div> 
 						
-						
-						<!-- Thumb Gallery -->
 						<div class="thumb-gallery">
 							<div class="row">
 								<div class="col-sm-12">
@@ -1429,28 +883,26 @@
 										</ul>
 									</div>
 								</div>
-							</div> <!-- //row -->
+							</div> 
 						</div> 
-						<!-- //Thumb Gallery -->
 						
-						<!-- Advertisement two -->
 						<div class="advertisement mtt30">
 							<div class="row">
 								<div class="col-sm-12">
 									<img src="img/large-ad2.jpg" class="img-100p" alt="advertisement">
 								</div>
 							</div>
-						</div> <!-- //Advertisement two -->
-					</div> <!-- //col-sm-9 -->	
+						</div> 
+					</div> 
 	
 	
 	
 					<div class="col-sm-3">
-						<!-- popular-news -->
+						
 						<div class="popular-news">
 							<div class="section-title">
 								<h3> <span class="cat-icon"><i class="fa fa-pencil"></i></span>Popular News</h3>
-							</div> <!-- //section-title -->
+							</div> 
 							
 							<ul class="popular-news-list">
 								<li><a href="single-article.html">The polls that prove caste politics still matter in India</a></li>
@@ -1459,218 +911,129 @@
 								<li><a href="single-article.html">In aliquet facilisis condimentum Donec at orci orci</a></li>
 								<li><a href="single-article.html">Integer elementum massa at nulla condimentum Donec</a></li>
 							</ul>
-						</div> <!-- //popular-news -->
+						</div>
 						
-						<!-- Advertisement sidebar 01 -->
-						<div class="advertisement mtb30 mtt30">
-							<div class="row">
-								<div class="col-sm-12">
-									<img src="img/right-ad1.jpg" class="img-100p" alt="advertisement">
-								</div>
+						 <div class="advertisement mtb30 mtt10">
+						  <div class="row">
+							<div class="col-sm-12">
+							  <iframe src="https://widget.crictimes.org/" style="width:100%;min-height: 420px;" frameborder="0" scrolling="yes"></iframe>
 							</div>
-						</div> <!-- //Advertisement sidebar 01-->
+						  </div>
+						</div> 
 						
-						<!-- Social counter -->
-						<div class="social-counter clearfix">
-							<div class="section-title">
-								<h3> <span class="cat-icon"><i class="fa fa-share-alt"></i></span>Stay Connected</h3>
-							</div> <!-- //section-title -->
-	
-							<div class="clearfix">
-								<div class="col-sm-6 col-xs-6 social-common-bar">
-									<div class="social-icon"><a href="#" target="_blank"><i class="twitter-icon fa fa-twitter"></i></a></div>
-									<div class="social-total-count">
-										<p class="follow-button">4570<span class="social-text">Followers</span></p>
-									</div>
-								</div>
-								<div class="col-sm-6 col-xs-6 social-common-bar">
-									<div class="social-icon"><a href="#" target="_blank"><i class="facebook-icon fa fa-facebook"></i></a></div>
-									<div class="social-total-count">
-										<p class="follow-button">5423<span class="social-text">Likes</span></p>
-									</div>
-								</div>
-								<div class="col-sm-6 col-xs-6 social-common-bar">
-									<div class="social-icon"><a href="#" target="_blank"><i class="dribbble-icon fa fa-dribbble"></i></a></div>
-									<div class="social-total-count">
-										<p class="follow-button">7902<span class="social-text">Followers</span></p>
-									</div>
-								</div>
-								<div class="col-sm-6 col-xs-6 social-common-bar">
-									<div class="social-icon"><a href="#" target="_blank"><i class="rss-icon fa fa-rss"></i></a></div>
-									<div class="social-total-count">
-										<p class="follow-button">1261<span class="social-text">RSS</span></p>
-									</div>
-								</div> 
-							</div><!-- //row -->
-						</div> <!-- //social counter -->
-						
-						<!-- Advertisement sidebar 02 -->
-						<div class="advertisement mtb30 mtt10">
-							<div class="row">
-								<div class="col-sm-12">
-									<img src="img/right-ad2.jpg" class="img-100p" alt="advertisement">
-								</div>
+						<div class="social-counter">
+						  <div class="section-title">
+							<h3> <span class="cat-icon"><i class="fa fa-share-alt"></i></span>Stay Connected</h3>
+						  </div> 
+				
+						  <div class="clearfix">
+							<div class="col-sm-6 col-xs-6 social-common-bar">
+							  <div class="social-icon"><a href="https://twitter.com/telugumovieshi1" target="_blank"><i class="twitter-icon fa fa-twitter"></i></a></div>
+							  <div class="social-total-count">
+								<p class="follow-button">45<span class="social-text">Followers</span></p>
+							  </div>
 							</div>
-						</div> <!-- //Advertisement sidebar 02-->
-	
-						<!-- Advertisement sidebar 03 -->
-						<div class="advertisement mtb30 mtt30">
-							<div class="row">
-								<div class="col-sm-12">
-									<img src="img/right-ad5.png" class="img-100p" alt="advertisement">
-								</div>
+							<div class="col-sm-6 col-xs-6 social-common-bar">
+							  <div class="social-icon"><a href="https://www.facebook.com/telugumovieshines/?ref=pages_you_manage" target="_blank"><i class="facebook-icon fa fa-facebook"></i></a></div>
+							  <div class="social-total-count">
+								<p class="follow-button">105<span class="social-text">Likes</span></p>
+							  </div>
 							</div>
-						</div> <!-- //Advertisement sidebar 03-->
+							<div class="col-sm-6 col-xs-6 social-common-bar">
+							  <div class="social-icon"><a href="https://in.pinterest.com/Telugumovieshine/" target="_blank"><i class="pinterest-icon fa fa-pinterest"></i></a></div>
+							  <div class="social-total-count">
+								<p class="follow-button">79<span class="social-text">Followers</span></p>
+							  </div>
+							</div>
+							<div class="col-sm-6 col-xs-6 social-common-bar">
+							  <div class="social-icon"><a href="https://www.instagram.com/gkchowdary556/" target="_blank"><i class="instagram-icon fa fa-instagram"></i></a></div>
+							  <div class="social-total-count">
+								<p class="follow-button">61<span class="social-text">Likes</span></p>
+							  </div>
+							</div> 
+						  </div>
+						</div> 
 						
-						<!-- market-data -->
+					
 						<div class="market-data mtt30">
-							<div class="row">
-								<div class="col-sm-12">
-									<img src="img/market-data.jpg" class="img-100p" alt="market-data">
+							 <div class="row">
+							<div class="col-sm-12">
+							 
+								<div class="tradingview-widget-container">
+								  <div class="tradingview-widget-container__widget"></div>
+								  <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/markets/stocks-india/" rel="noopener" target="_blank">
+								  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+								  {
+								  "colorTheme": "light",
+								  "dateRange": "1D",
+								  "exchange": "BSE",
+								  "showChart": true,
+								  "locale": "in",
+								  "largeChartUrl": "",
+								  "isTransparent": false,
+								  "showSymbolLogo": false,
+								  "width": "260",
+								  "height": "600",
+								  "plotLineColorGrowing": "rgba(41, 98, 255, 1)",
+								  "plotLineColorFalling": "rgba(41, 98, 255, 1)",
+								  "gridLineColor": "rgba(240, 243, 250, 0)",
+								  "scaleFontColor": "rgba(120, 123, 134, 1)",
+								  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+								  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+								  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+								  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+								  "symbolActiveColor": "rgba(41, 98, 255, 0.12)"
+								}
+								  </script>
 								</div>
+								
 							</div>
-						</div> <!-- //market-data -->
+						  </div>
+						</div> 
+						</div> 
 	
-						<!-- Latest Comments -->
-						<div class="latest-comments mtt30">
-							<div class="section-title">
-								<h3> <span class="cat-icon"><i class="fa fa-comment-o"></i></span>Recent Comments</h3>
-							</div> <!-- //section-title -->
-	
-							<div class="latest-comment">
-								<p>"Salami rump boudin filet mignon doner beef ribs pork tenderloin"</p>
-								<div class="media">
-									<div class="latest-comments-image media-left">
-										<img src="img/comm-user.jpg" alt="comment">
-									</div>
-									<div class="latest-comment-wrap media-body">
-										<span class="latest-comments-user">admin</span><span class="latest-comments-date">October 30 2015</span>,<span class="latest-comments-category"> <a href="#" class="social-color">Social</a></span>
-									</div>
-								</div>
-							</div>
-							<div class="latest-comment">
-								<p>"Salami rump boudin filet mignon doner beef ribs pork tenderloin"</p>
-								<div class="media">
-									<div class="latest-comments-image media-left">
-										<img src="img/comm-user.jpg" alt="comment">
-									</div>
-									<div class="latest-comment-wrap media-body">
-										<span class="latest-comments-user">admin</span><span class="latest-comments-date">October 30 2015</span>,<span class="latest-comments-category"> <a href="#" class="technology-color">Technology</a></span>
-									</div>
-								</div>
-							</div>
-							<div class="latest-comment">
-								<p>"Salami rump boudin filet mignon doner beef ribs pork tenderloin"</p>
-								<div class="media">
-									<div class="latest-comments-image media-left">
-										<img src="img/comm-user.jpg" alt="comment">
-									</div>
-									<div class="latest-comment-wrap media-body">
-										<span class="latest-comments-user">admin</span><span class="latest-comments-date">October 30 2015</span>,<span class="latest-comments-category"> <a href="#" class="fashion-color">Fashion</a></span>
-									</div>
-								</div>
-							</div>
-						</div> <!-- //Latest Comments -->
-	
-						<!-- newedge-newsletter -->
-						<div class="newedge-newsletter mtt30">
-							<form action="#">
-								<div class="introtext">
-									<h2 class="news-letter-title">Newsletter</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-								</div>
-								<div class="form">
-									<input class="form-control" type="text" placeholder="E-mail" title="E-mail">
-									<input class="btn btn-primary" type="submit" value="Subscribe" name="Submit">
-								</div>
-							</form>
-						</div> <!-- //newedge-newsletter -->
-	
-						<!-- new-edge-poll -->
-						<div class="new-edge-poll mtt30">
-							<div class="section-title">
-								<h3> <span class="cat-icon"><i class="fa fa-check"></i></span>SP Poll</h3>
-							</div> <!-- //section-title -->
-	
-							<div class="poll-wrapper">
-								<p class="title">Who is the best player in football?</p>
-	
-								<form id="form-poll">
-									<div class="radio">
-										<label><input type="radio" name="question" value="0" checked=""> Lionel Messi </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="1"> Pelé </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="2"> Zinedine Zidane </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="3"> Diego Maradona </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="4"> Ronaldo </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="5"> Franz Beckenbauer </label>
-									</div>
-									<div class="radio">
-										<label><input type="radio" name="question" value="6"> Johan Cruyff </label>
-									</div>
-									<input type="submit" class="btn btn-default" value="Submit">
-									<input type="button" id="btn-poll-result" class="btn btn-success" value="Result">
-								</form>
-							</div>
-						</div> <!-- //new-edge-poll -->
-	
-						<!-- newedge-twitter -->
-						<div class="newedge-twitter mtt30">
-							<h4 class="title">New Edge @newedge</h4>
-							<div class="content">
-								<div class="tweet-item tweet-odd tweet-first">
-									<div class="date">Thu Jan 14 09:12:46 +0000 2016</div>
-									<br> A detailed guide to the Helix3 Layout Manager → <a target="_blank" class="tweet_url" href="https://t.co/piwV4JSdlI">https://t.co/piwV4JSdlI</a> #Joomla #Web @Joomla <a target="_blank" class="tweet_url" href="https://t.co/l5DIODtOZc">https://t.co/l5DIODtOZc</a>
-								</div>
-								<div class="tweet-item tweet-even">
-									<div class="date">Thu Jan 14 05:36:59 +0000 2016</div>
-									<br> Moview, brand new Joomla template for movie database and review: <a target="_blank" class="tweet_url" href="https://t.co/qkSWsFIeO6">https://t.co/qkSWsFIeO6</a> #Joomla #Template @Joomla <a target="_blank" class="tweet_url" href="https://t.co/uYxMuYxiW0">https://t.co/uYxMuYxiW0</a>
-								</div>
-							</div>
-						</div> <!-- //newedge-twitter -->
 						
-					</div> <!-- //col-sm-3 -->
-				</div> <!-- //row -->
-			</div> <!-- //container -->
+	
+						<div class="newedge-twitter mtt30">
+						  <h4 class="title">Telugumovieshine</h4>
+						  <div class="content">
+						   <a class="twitter-timeline" href="https://twitter.com/telugumovieshi1?ref_src=twsrc%5Etfw">Tweets by telugumovieshi1</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						  </div>
+						</div>
+						
+						<div class="newedge-newsletter mtt30">
+						  <form action="#">
+							<div class="introtext">
+							  <h2 class="news-letter-title">Newsletter</h2>
+							  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+							<div class="form">
+							  <input class="form-control" type="text" placeholder="E-mail" title="E-mail">
+							  <input class="btn btn-primary" type="submit" value="Subscribe" name="Submit">
+							</div>
+						  </form>
+						</div> 
+						
+					</div> 
+				</div> 
+			</div> 
 		</section>
-		<!--====  End of MAIN WRAPPER  ====-->
 	
 	
 	
-		<!--==================================
-		=            START FOOTER            =
-		===================================-->
 		<footer>
 			<div class="footer-wrapper">
 				<div class="container">
 					<div class="row">
 						<div id="bottom1" class="col-sm-6 col-md-3">
 							<p class="footer-logo"><img src="img/bottom-logo1.png" alt="logo"></p>
-							<p class="footer-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et aliqua.</p>
-							<div class="footer-contact">
-								<p>
-									<span>Email:</span>
-									info@gknewz.com
-								</p>
-								<p>
-									<span>Phone:</span>
-									8019675535
-								</p>
-							</div>
-						</div> <!-- //bottom1 -->
+							<p class="footer-info">Latest movie news, political news, videos and cricket updates</p>
+							
+						</div> 
 	
 						<div id="bottom2" class="col-sm-6 col-md-3">
 							<div class="bottom-menu">
-								<h3 class="title">Quick Link</h3>
+								<h3 class="title">Quick Links</h3>
 								<div class="pull-left">
 									<ul class="menu">
 										<li><a href="index.html">Home</a></li>
@@ -1686,13 +1049,11 @@
 										<li><a href="tollywood.html">Tollywood</a></li>
 										<li><a href="bollywood.html">Bollywood</a></li>										
 										<li><a href="politics.html">Politics</a></li>
-										<li><a href="privacypolicy.html">Privacy Policy</a></li>
-										<li><a href="termsofuse.html">Terms of Use</a></li>
 										<li><a href="videos.html">Videos</a></li>
 									</ul>
 								</div>
 							</div>
-						</div> <!-- //bottom2 -->
+						</div> 
 	
 						<div id="bottom3" class="col-sm-6 col-md-3">
 							<div class="">
@@ -1706,43 +1067,42 @@
 									<a class="tag-name" href="#">Fashion</a>
 									<a class="tag-name" href="#">Culture</a>
 									<a class="tag-name" href="#">Business</a>
-									<a class="tag-name" href="#">Art</a>
+									<a class="tag-name" href="#">Cricket</a>
 								</div>
 							</div>
-						</div> <!-- //bottom3 -->
+						</div> 
 	
 						<div id="bottom4" class="col-sm-6 col-md-3">
 							<div class="social-wrapper">
 								<h3 class="title">Social Link</h3>
 								<ul class="social-icons">
-									<li><a target="_blank" href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-									<li><a target="_blank" href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-									<li><a target="_blank" href="#"><i class="fa fa-google-plus"></i> Google Plus</a></li>
-									<li><a target="_blank" href="#"><i class="fa fa-pinterest"></i> Pinterest</a></li>
-									<li><a target="_blank" href="#"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+									<li><a target="_blank" href="https://www.facebook.com/telugumovieshines/?ref=pages_you_manage"><i class="fa fa-facebook"></i> Facebook</a></li>
+									<li><a target="_blank" href="https://twitter.com/telugumovieshi1"><i class="fa fa-twitter"></i> Twitter</a></li>
+									<li><a target="_blank" href="https://www.instagram.com/gkchowdary556/"><i class="fa fa-instagram"></i> Instagram</a></li>
+									<li><a target="_blank" href="https://in.pinterest.com/Telugumovieshine/"><i class="fa fa-pinterest"></i> Pinterest</a></li>
+									<li><a target="_blank" href="https://www.linkedin.com/in/telugu-movieshine-4894b0217/"><i class="fa fa-linkedin"></i> Linkedin</a></li>
 								</ul>
 							</div>
-						</div> <!-- //bottom4 -->
-					</div> <!-- //row -->
-				</div>  <!-- //container -->
-			</div> <!-- //footer-wrapper --> 
+						</div> 
+					</div> 
+				</div>  
+			</div> 
 	
 			<div class="copyright-wrapper">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-md-6">
-							<p class="copyright"> Copyright © 2016 <a href="#">Gknewz.</a> All rights reserved.</p>
+							<p class="copyright"> Copyright © 2016 <a href="#">Telugumovieshine.</a> All rights reserved.</p>
 						</div>
 						<div class="col-sm-6 col-md-6">
 							<p class="pull-right">Designed &amp; Devleoped by&nbsp;<a href="#">Gk</a></p>
 						</div>
-					</div>  <!-- //row -->
-				</div> <!-- //container -->
-			</div> <!-- //copyright-wrapper -->
+					</div>  
+				</div> 
+			</div> 
 		</footer>
-		<!--====  End of FOOTER  ====-->
-	
-		<!-- Offcanvas Start-->
+		
+		
 		<div class="offcanvas-overlay"></div>
 		<div class="offcanvas-menu visible-sm visible-xs">
 			<a href="#" class="close-offcanvas"><i class="fa fa-remove"></i></a>
@@ -1766,25 +1126,38 @@
 				</ul>
 			</div>
 		</div>
-		<!-- end Offcanvas -->
+		
 
-	</div> <!-- //body-innerwrapper -->
-
+	</div> 
 	
+	
+	 <script type="text/javascript"> 
+		function display_c(){
+		var refresh=1000; 
+		mytime=setTimeout('display_ct()',refresh)
+		}
+
+		function display_ct() {
+		var x = new Date()
+		document.getElementById('ct').innerHTML = x;
+		display_c();
+		 }
+		 document.addEventListener('contextmenu', event => event.preventDefault());
+		</script>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
-	<!-- select menu -->
+	
 	<script src="js/classie.js"></script>
 	<script src="js/selectFx.js"></script>
-	<!-- slider -->
+
 	<script src="js/jquery.nanoscroller.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- sitcky menu -->
+	
 	<script src="js/jquery.sticky.js"></script>
-	<!-- custom js -->
+	
 	<script src="js/main.js"></script>
 	<script src="js/switcher.js"></script>
 </body>
