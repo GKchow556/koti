@@ -1,16 +1,1 @@
-		jQuery(document).ready(function($){
-			$('.preset-list li a').on('click',function(event){
-				event.preventDefault();
-				var color = $(this).data('color'),
-					url = 'css/presets/'+color+'.css';
-					logoSrc = 'img/presets/'+color+'/logo.png';
-				
-				$('#logo img').attr('src', logoSrc);
-				$('#preset').attr('href', url);
-			});
-
-			$('.toggoler').on('click',function(){
-				$(this).toggleClass('hide-icon')
-				$('.style-chooser').toggleClass('active');
-			});
-		});
+jQuery(document).ready(function(e){e(".preset-list li a").on("click",function(o){o.preventDefault();var t=e(this).data("color"),o="css/presets/"+t+".css";logoSrc="img/presets/"+t+"/logo.png",e("#logo img").attr("src",logoSrc),e("#preset").attr("href",o)}),e(".toggoler").on("click",function(){e(this).toggleClass("hide-icon"),e(".style-chooser").toggleClass("active")})});
