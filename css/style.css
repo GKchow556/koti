@@ -1321,7 +1321,7 @@ article .overlay:before {
 }
 article .article-inner{
 	overflow: hidden;
-	min-height: 165px;
+	min-height: 170px;
 }
 .article-inner .img-wrapper{
 	overflow: hidden;
