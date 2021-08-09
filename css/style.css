@@ -1376,6 +1376,7 @@ article .article-inner{
 }
 .latest-post-image {
     padding: 2px;
+    height: 170px;
 }
 .verdict span {
     color: #ed1c24;
